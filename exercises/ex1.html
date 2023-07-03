@@ -8,6 +8,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="../images/logo_ywca_32by32.png">
         <link rel="stylesheet" href="../styles/index.css">
+        <style>
+            #pseudo:visited {
+                color: red;
+            }
+        </style>
     </head>
     <body>
         <div id="header" class="container">
@@ -16,8 +21,12 @@
             <a href="../index.html">Home</a>
         </div>
         <div id="problems" class="container">
-            <p id="q1">Inside of the div with an id of "answers", create a link to the page ex2.html.</p>
-            <p id="q2">Inside of the div with an id of "answers", create a link to the page ex2.html, but in a new tab.</p>
+            <p id="q1">
+                Inside of the div with an id of "answers", create a link to the page ex2.html.
+            </p>
+            <p id="q2">
+                Inside of the div with an id of "answers", create a link to the page ex2.html, but in a new tab.
+            </p>
             <p id="q3">
                 Inside of the div with an id of "answers", create a link as an image to the page ex3.html.
                 You may choose whichever image you like from the images folder.
@@ -50,9 +59,26 @@
             </p>
         </div>
         <div id="answers" class="container">
-            
+            <p><a href="ex2.html">Exercise 2</a></p>
+            <p><a href="ex2.html" target="_blank">Exercise 2 - New Tab</a></p>
+            <a href="ex3.html">
+                <img src="../images/grand-teton.jpg" alt="The Grand Tetons" width="100%" height="100%">
+            </a>
+            <br>
+            <a href="mailto:GrahamE@ywcanwil.org">Email Graham</a>
+            <br>
+            <a href="https://www.w3schools.com/html" title="W3Schools - HTML Section">Go to W3Schools</a>
+            <br>
+            <a href="../index.html" style="color: pink;">Home</a>
+            <br>
+            <a href="../index.html" id="pseudo">Home (Check the style element at the top of the page).</a>
+            <br>
+            <a href="../index.html" style="background-color: red;padding: 5px;width: 50px;">Home</a>
+            <br>
+            <a href="#header">Header</a>
+            <br>
+            <a href="../index.html#html">Home - Header</a>
         </div>
-        
         <script src="" async defer></script>
     </body>
 </html>
