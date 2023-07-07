@@ -8,6 +8,7 @@ html {
 
 .container {
     margin: 5%;
+    padding-inline: 1rem;
     text-align: left;
 }
 
@@ -38,7 +39,7 @@ html {
 } */
 
 #answers {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
